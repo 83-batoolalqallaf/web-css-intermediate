@@ -137,4 +137,9 @@
     color: white;
     text-align: left;
  }
-  
+ /* table */
+ table, th, td {align-items: baseline;
+    border: 1px solid black; 
+  }
+  .english{text-align: left;}
+  .list{text-align: right;list-style-type: none;}
