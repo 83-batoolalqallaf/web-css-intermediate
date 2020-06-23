@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <form action="action_page.php" style="border:1px solid #ccc">
+        <div class="container">
+          <h1>تسجيل الدخول</h1>
+          <p>سجل دخولك لتتمكن من الدخول الى المنصه</p>
+          <hr>
+          <div>
+          <label for="username"><b>username</b></label>
+          <input type="text" placeholder="Enteresername" name="username" required>
+          </div>
+          <div>
+          <label for="email"><b>Email</b></label>
+          <input type="email" placeholder="Enter Email" name="email" required>
+        </div>
+        <div>
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+        </div>
+        <div>
+          <label for="psw-repeat"><b>Repeat Password</b></label>
+          <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+        </div>
+          <label>
+            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+          </label>
+          <div>
+          <a href="./1st.html">
+            <input type="button" value="cancel"/>
+            </a>
+            <a href="./1st.html">
+                <input type="button" value="signup"/>
+            </a>
+          </div>
+        
+          <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+          
+</body>
+</html>
